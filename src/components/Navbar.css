@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    min-height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
+  .nav__container__actions {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    padding-left: 50px;
+    flex: 1;
+  }
+
+  ul{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 0;
+  }
+
