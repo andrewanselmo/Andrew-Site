@@ -11,9 +11,13 @@ const Content=() => {
     return (
         <div id = "content">
         
-            <div id = "header">
-                <img src ={head} id = "head-img"/>
+            <div id = "wrapper"> 
+                <div id = "header">
+                    <h1 id = "header-text"> Welcome, to Andrew.com </h1>
+                </div>
+                {/* <img src ={head} id = "head-img"/> */}
             </div>
+
             <div id = "about">
                 <h1 id = "about-h1">
                     ABOUT ME 

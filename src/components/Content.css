@@ -1,12 +1,51 @@
-#header{
+
+/* header */
+*{
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    height: 70vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  #header {
+    /* Controls how far out the cursor goes */
+    width: 44ch; 
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+#head-img{
+ 
     width: 100%;
     height: 500px;
 }
 
-#head-img{
-    width:100%;
-    height:100%;
-}
+
+
+/* header */
+
+
 
 /* about  */
 
@@ -64,7 +103,7 @@
 #projects{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.2fr 0.8fr 0.8fr;
+    grid-template-rows: 0.2fr 1.3fr 1.3fr;
     gap: 10px;
 
 }
@@ -130,7 +169,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-bottom: 15%;
+    
 }
 
 #another-project{
@@ -170,6 +209,9 @@
     grid-auto-rows: minmax(100px, auto);
     margin-top: 50px;
     display: grid;
+
+    overflow: hidden;
+    margin: 0 auto;
     
 
 }
@@ -188,6 +230,8 @@
 #contact img {
     width: 100%;
     height: 100%;
+    transition: 0.2s all ease-in-out;
+    
 }
 
 #git-img {
@@ -199,6 +243,10 @@
     margin-right: 6%;
 }
 
+#git-img:hover img{
+    transform: scale(1.09);
+}
+
 #linked-img{
     grid-column: 2;
     grid-row: 2;
@@ -206,6 +254,10 @@
     width: 108px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#linked-img:hover img{
+    transform: scale(1.09);
 }
 
 #mail-img{
@@ -216,6 +268,10 @@
     margin-left: 6%;
     margin-right: auto;
     
+}
+
+#mail-img:hover img{
+    transform: scale(1.09);
 }
 
 /* Contact */

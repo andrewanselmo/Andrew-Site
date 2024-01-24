@@ -7,7 +7,7 @@ const Navbar=() => {
     
       <nav className = "nav__container__actions">
         <ul>
-        <Link activeClass="active" smooth spy to="header">
+        <Link activeClass="active" smooth spy to="wrapper">
           <li>
             HOME 
           </li>
