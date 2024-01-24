@@ -31,6 +31,7 @@ const Content=() => {
                     <img src ={me} id = "me-img"/>
 
             </div>
+
             <div id = "projects">
                 <h1 id = "projects-h1">
                     PROJECTS
@@ -53,19 +54,28 @@ const Content=() => {
             </div>
 
             <div id = "contact">
+
                 <h1 id = "contact-h1">
                     CONTACT
                 </h1>
 
-                <a href="https://github.com/andrewanselmo/Rails-Blog">
-                    <img src ={git} id = "git-img"/>
-                </a>
-                <a href="https://github.com/andrewanselmo/Rails-Blog">
-                    <img src ={linked} id = "linked-img"/>
-                </a>
-                <a href="https://github.com/andrewanselmo/Rails-Blog">
-                    <img src ={mail} id = "mail-img"/>
-                </a>
+                <div id = "git-img">
+                    <a href="https://github.com/andrewanselmo">
+                        <img src ={git}/>
+                    </a>
+                </div>
+
+                <div id = "linked-img">
+                    <a href="https://www.linkedin.com/in/andrew-anselmo-a409b21a6/">
+                        <img src ={linked}/>
+                    </a>
+                </div>
+
+                <div id = "mail-img">
+                    <a href="mailto: andrewanselmo@me.com">
+                        <img src ={mail}/>
+                    </a>
+                </div>
 
             </div>
 
