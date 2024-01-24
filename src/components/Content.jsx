@@ -1,5 +1,9 @@
 import head from "./head.jpg"
 import me from "./me.jpg"
+import rails from "./rails.png"
+import mail from "./mail.png"
+import linked from "./linked.png"
+import git from "./git.png"
 import "./Content.css"
 
 
@@ -12,10 +16,9 @@ const Content=() => {
             </div>
             <div id = "about">
                 <h1 id = "about-h1">
-                    About Me 
+                    ABOUT ME 
                 </h1>
                 
-                    
                     <p id = "about-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
@@ -29,9 +32,40 @@ const Content=() => {
 
             </div>
             <div id = "projects">
+                <h1 id = "projects-h1">
+                    PROJECTS
+                </h1>
+
+                    <div id = "rails-project">
+                        <h2 id = "rails-h2"> Ruby on rails blog</h2>
+                        <a href="https://github.com/andrewanselmo/Rails-Blog">
+                            <img src ={rails} id = "rails-img"/>
+                        </a>
+
+                    </div>
+                
+
+                <div id = "another-project">
+                    <h2 id = "another-h2"> Ruby on rails blog</h2>
+                    <img src ={rails} id = "another-img"/>
+                </div>
 
             </div>
+
             <div id = "contact">
+                <h1 id = "contact-h1">
+                    CONTACT
+                </h1>
+
+                <a href="https://github.com/andrewanselmo/Rails-Blog">
+                    <img src ={git} id = "git-img"/>
+                </a>
+                <a href="https://github.com/andrewanselmo/Rails-Blog">
+                    <img src ={linked} id = "linked-img"/>
+                </a>
+                <a href="https://github.com/andrewanselmo/Rails-Blog">
+                    <img src ={mail} id = "mail-img"/>
+                </a>
 
             </div>
 
