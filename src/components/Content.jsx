@@ -71,6 +71,8 @@ const Content=() => {
 
             </div>
 
+            
+
             <div id = "projects">
                 <h1 id = "projects-h1">
                     PROJECTS
