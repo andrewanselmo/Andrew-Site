@@ -3,24 +3,47 @@
 *{
     margin:0;
     padding:0;
+    /* background-color: rgb(255, 250, 235); */
+    
 }
+
+#content{
+    
+
+      background: 
+	radial-gradient(at var(--mouse-x) var(--mouse-y), rgba(251,73,32,1), rgba(239,239,23,0.46)),
+	radial-gradient(circle at 63% 111%, rgba(0,255,255,1), rgba(171,243,137,1));
+
+}
+
+
 
 #wrapper {
     height: 70vh;
     /*This part is important for centering*/
     display: grid;
     place-items: center;
+    padding-bottom: 130px;
+
+    
+    
   }
   
   #header {
     /* Controls how far out the cursor goes */
-    width: 44ch; 
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    width: 48ch; 
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
+    /* cursor color */
+    color: rgb(230, 103, 75);  
+    
+    
+     
+    
   }
   
   @keyframes typing {
@@ -31,7 +54,8 @@
       
   @keyframes blink {
     50% {
-      border-color: transparent
+      border-color: transparent;
+      
     }
   }
 
@@ -41,11 +65,17 @@
     height: 500px;
 }
 
+#header-text{
+    font-family: 'Pixelify Sans', sans-serif;
+    /* color: rgb(134, 198, 133);     */
+    color: rgb(251, 107, 82);    
+    
+}
+
+
 
 
 /* header */
-
-
 
 /* about  */
 
@@ -55,6 +85,12 @@
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     padding-bottom: 10%;
+    /* background-color:rgb(254, 250, 231); */
+
+
+
+    
+    
 }
 
 #about-h1{
@@ -66,12 +102,9 @@
     padding-left: 15%;
     margin-top: auto;
     margin-bottom: 0.05%;
-    
-    color:rgb(248, 91, 91);
-
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Anton', sans-serif;
 }
-
-
 
 #me-img{
     width: 70%;
@@ -92,6 +125,8 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 /* about  */
@@ -116,6 +151,8 @@
     padding-left: 15%;
     margin-top: auto;
     margin-bottom: 0.05%;
+    font-family: 'Roboto', sans-serif;
+    
     
     color:rgb(248, 91, 91);
 
@@ -154,6 +191,7 @@
     font-size: 1.5vw;
     text-align: center;
     margin-bottom: 0.005%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* rails project */
@@ -192,6 +230,7 @@
     font-size: 1.5vw;
     text-align: center;
     margin-bottom: 0.005%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* another project */
@@ -204,16 +243,16 @@
 /* Contact */
 
 #contact{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     margin-top: 50px;
     display: grid;
-
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     margin: 0 auto;
     
-
 }
 
 #contact-h1{
@@ -222,7 +261,8 @@
     padding: 10px;
     font-size: 2vw;
     text-align: center;
-    color:rgb(248, 91, 91);
+    /* color:rgb(248, 91, 91); */
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -240,7 +280,7 @@
     height: 100px;
     width: 100px;
     margin-left: auto;
-    margin-right: 6%;
+    margin-right: 0.01%;
 }
 
 #git-img:hover img{
@@ -265,7 +305,7 @@
     grid-row: 2;
     height: 100px;
     width: 100px;
-    margin-left: 6%;
+    margin-left: 0.01%;
     margin-right: auto;
     
 }
@@ -288,10 +328,3 @@ li:hover {
 
 /* nav */
 
-#what{
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    margin-top: 50px;
-    display: grid;
-}

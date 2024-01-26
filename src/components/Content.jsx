@@ -1,15 +1,50 @@
-import head from "./head.jpg"
+
 import me from "./me.jpg"
 import rails from "./rails.png"
 import mail from "./mail.png"
 import linked from "./linked.png"
 import git from "./git.png"
 import "./Content.css"
+import {useEffect, useRef} from "react";
 
 
 const Content=() => {
+
+    const appRef = useRef(null);
+
+    useEffect( () => {
+  
+      const moveGradient = (event) => {
+        const winWidth = window.innerWidth;
+        const winHeight = window.innerHeight;
+  
+        const mouseX = Math.round((event.pageX / winWidth)*100)
+        const mouseY = Math.round((event.pageY / winHeight)*100)
+  
+        if (appRef) {
+          appRef.current.style.setProperty(
+            '--mouse-x', mouseX.toString() + "%"
+          )
+        }
+  
+        if (appRef) {
+          appRef.current.style.setProperty(
+            '--mouse-y', mouseX.toString() + "%"
+          )
+        }
+      }
+  
+      document.addEventListener("mousemove", moveGradient);
+      return function cleanup() {
+        document.removeEventListener("mousemove", moveGradient);
+  
+      };
+  
+  
+    }, [appRef]); 
+
     return (
-        <div id = "content">
+        <div id = "content" ref = {appRef} data-scroll-container>
         
             <div id = "wrapper"> 
                 <div id = "header">
@@ -51,7 +86,7 @@ const Content=() => {
                 
 
                 <div id = "another-project">
-                    <h2 id = "another-h2"> Ruby on rails blog</h2>
+                    <h2 id = "another-h2"> Another project</h2>
                     <img src ={rails} id = "another-img"/>
                 </div>
 
@@ -82,6 +117,8 @@ const Content=() => {
                 </div>
 
             </div>
+
+
 
             {/* resume */}
 
