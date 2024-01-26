@@ -120,11 +120,7 @@ const Content=() => {
 
             </div>
 
-
-
             {/* resume */}
-
-
 
         </div>
     )
