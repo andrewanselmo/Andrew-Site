@@ -12,12 +12,12 @@ const Navbar=() => {
             HOME 
           </li>
           </Link>
-          <Link activeClass="active" smooth spy to="about">
+          <Link activeClass="active" smooth spy to="about-nav-tracker">
             <li>
               ABOUT ME
             </li>
           </Link>
-          <Link activeClass="active" smooth spy to="projects">
+          <Link activeClass="active" smooth spy to="projects-nav-tracker">
             <li>
               PROJECTS
             </li>

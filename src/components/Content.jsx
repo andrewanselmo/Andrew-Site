@@ -53,25 +53,38 @@ const Content=() => {
                 {/* <img src ={head} id = "head-img"/> */}
             </div>
 
+            <div id = "about-nav-tracker"></div>
+
             <div id = "about">
                 <h1 id = "about-h1">
-                    ABOUT ME 
+                    ABOUT ME
                 </h1>
                 
                     <p id = "about-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+
+                    <p id = "about-name"> Andrew Anselmo</p>
+                    <br></br>
+                   
+                    I'm a dedicated software engineer with a degree in computer science and
+                    a passion for transforming ideas into reality through code. 
+                    With a wealth of experience across various domains, I bring a versatile skill set to the table. 
+                    
+                    <br></br>
+                    <br></br>
+                    From developing efficient algorithms to designing user-friendly interfaces, 
+                    I am driven to create impactful and innovative solutions. Fuelled by a love for creativity, 
+                    I believe in the transformative power of technology and its ability to shape our world for the better. 
+
+                    <br></br>
+                    <br></br>
+                    Explore my portfolio to get a glimpse of my work, and feel free to connect—
+                    I'm always eager to dive into new and exciting ventures.
                     </p>
                     <img src ={me} id = "me-img"/>
 
             </div>
 
-            
+            <div id = "projects-nav-tracker"></div>
 
             <div id = "projects">
                 <h1 id = "projects-h1">
@@ -87,10 +100,10 @@ const Content=() => {
                     </div>
                 
 
-                <div id = "another-project">
+                {/* <div id = "another-project">
                     <h2 id = "another-h2"> Another project</h2>
                     <img src ={rails} id = "another-img"/>
-                </div>
+                </div> */}
 
             </div>
 

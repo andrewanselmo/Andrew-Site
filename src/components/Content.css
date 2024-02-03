@@ -4,14 +4,25 @@
     margin:0;
     padding:0;
     
+    
 }
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
 
 #content{
     
 
       background: 
 	radial-gradient(at var(--mouse-x) var(--mouse-y), rgba(251,73,32,1), rgba(239,239,23,0.46)),
-	radial-gradient(circle at 63% 111%, rgba(0,255,255,1), rgba(171,243,137,1));
+	radial-gradient(circle at 63% 111%, rgb(238, 153, 134), rgb(149, 243, 137));
+
+    /* radial-gradient(at var(--mouse-x) var(--mouse-y), rgb(75, 75, 239), rgba(239, 99, 23, 0.46)),
+	radial-gradient(circle at 63% 111%, rgba(0,255,255,1), rgb(249, 75, 5)); */
 
 }
 
@@ -23,6 +34,7 @@
     display: grid;
     place-items: center;
     padding-bottom: 150px;
+    padding-top: 40px;
 
     
     
@@ -39,6 +51,7 @@
     font-size: 2em;
     /* cursor color */
     color: rgb(248, 245, 244);  
+    
     
     
   }
@@ -61,7 +74,8 @@
 #header-text{
     font-family: 'Pixelify Sans', sans-serif;
     /* color: rgb(134, 198, 133);     */
-    color: rgb(255, 242, 239);    
+    color: rgb(255, 242, 239);   
+     
     
 }
 
@@ -70,58 +84,117 @@
 
 /* about  */
 
+#about-nav-tracker{
+    height:10px
+}
+
 #about{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 2fr;
     gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    padding-bottom: 10%;
+    grid-template-rows: 0.5fr 0.5fr;
     
 }
 
 #about-h1{
 
-    grid-column: 1/2;
+    grid-column: 1 / span 2;
     grid-row: 1;
     padding: 10px;
-    font-size: 2.2vw;
-    padding-left: 18%;
-    margin-top: auto;
+    font-size: 1.9vw;
+    text-align: center;
+    margin-top: 5%;
     margin-bottom: 0.05%;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(253, 251, 237);
+    
 
 }
 
 #me-img{
-    width: 64%;
-    height: auto;
+    width: 25%;
+    height: 30%;
     grid-column: 1;
     grid-row: 2;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 48%;
+
+    margin-top: 19%;
+    
     display: block;
+    border-radius: 50%;
+
+    
 }
+
+#about-name{
+
+    font-size: 1.7vw;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.001%;
+    
+
+}
+
+/* @media screen and (max-width: 800px) {
+    #about{
+        
+        gap: 10px;
+        grid-template-rows: 0.5fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr;
+        padding-bottom: 10%;
+        
+    }
+
+    #me-img{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #about-text{
+        grid-column: 2;
+        grid-row:2;
+    }
+
+} */
 
 #about-text{
     grid-column: 2;
     grid-row: 2;
-    padding: 20px;
-    font-size: 2vw;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 10%;
+    
+    font-size: 1.6vw;
+
+    margin-right: 7%;
+    
+    margin-bottom: 17%;
+
     display: block;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(243, 234, 234);
+    border-radius: 10px;
+    height: 75%;
+
     
+    padding-right: 5%;
+    padding-left: 5%;
+
+   
+    /* padding: 30px; */
     
+
 }
 
 /* about  */
 
 
 /* projects */
+
+#projects-nav-tracker{
+    height:85px
+}
 
 #projects{
     display: grid;
@@ -149,24 +222,21 @@
 /* rails project */
 
 #rails-img, #rails-project{
-    width: 85%;
-    height: auto;
     grid-column: 1;
     grid-row: 2;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
+    border-radius: 40px;
 }
 
 #rails-project{
-    width: 85%;
-    height: 65%;
+    width: 400px;
     overflow: hidden;
     margin: 0 auto;
 }
 
 #rails-img{
+    width: 90%;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
 }
@@ -186,40 +256,6 @@
 
 /* another project */
 
-#another-img, #another-project{
-    width: 85%;
-    height: auto;
-    grid-column: 2;
-    grid-row: 2;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    
-}
-
-#another-project{
-    width: 85%;
-    height: 65%;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-#another-img{
-    cursor: pointer;
-    transition: 0.2s all ease-in-out;
-}
-
-#another-project:hover img {
-    transform: scale(1.05);
-}
-
-#another-h2{
-    font-size: 1.5vw;
-    text-align: center;
-    margin-bottom: 0.005%;
-    font-family: 'Roboto', sans-serif;
-}
 
 /* another project */
 
