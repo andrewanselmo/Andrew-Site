@@ -4,53 +4,25 @@ import rails from "./rails.png"
 import mail from "./mail.png"
 import linked from "./linked.png"
 import git from "./git.png"
+import type4 from "./type4.gif"
+import wizard from "./wizard.gif"
+
 import "./Content.css"
 import {useEffect, useRef} from "react";
 
 
 const Content=() => {
 
-    const appRef = useRef(null);
 
-    useEffect( () => {
-  
-      const moveGradient = (event) => {
-        const winWidth = window.innerWidth;
-        const winHeight = window.innerHeight;
-  
-        const mouseX = Math.round((event.pageX / winWidth)*100)
-        const mouseY = Math.round((event.pageY / winHeight)*100)
-  
-        if (appRef) {
-          appRef.current.style.setProperty(
-            '--mouse-x', mouseX.toString() + "%"
-          )
-        }
-  
-        if (appRef) {
-          appRef.current.style.setProperty(
-            '--mouse-y', mouseX.toString() + "%"
-          )
-        }
-      }
-  
-      document.addEventListener("mousemove", moveGradient);
-      return function cleanup() {
-        document.removeEventListener("mousemove", moveGradient);
-  
-      };
-  
-  
-    }, [appRef]); 
 
     return (
-        <div id = "content" ref = {appRef} data-scroll-container>
+        <div id = "content" >
         
             <div id = "wrapper"> 
                 <div id = "header">
                     <h1 id = "header-text"> Welcome, to Andrew.com </h1>
                 </div>
-                {/* <img src ={head} id = "head-img"/> */}
+                <img src ={wizard} id = "wiz-img"/>
             </div>
 
             <div id = "about-nav-tracker"></div>
@@ -62,25 +34,25 @@ const Content=() => {
                 
                     <p id = "about-text">
 
-                    <p id = "about-name"> Andrew Anselmo</p>
-                    <br></br>
-                   
-                    I'm a dedicated software engineer with a degree in computer science and
-                    a passion for transforming ideas into reality through code. 
-                    With a wealth of experience across various domains, I bring a versatile skill set to the table. 
+                        <p id = "about-name"> Andrew Anselmo</p>
+                        <br></br>
                     
-                    <br></br>
-                    <br></br>
-                    From developing efficient algorithms to designing user-friendly interfaces, 
-                    I am driven to create impactful and innovative solutions. Fuelled by a love for creativity, 
-                    I believe in the transformative power of technology and its ability to shape our world for the better. 
+                        I'm a dedicated software engineer with
+                        a passion for transforming ideas into reality through code. 
+                        With a wealth of experience across various domains, I bring a versatile skill set to the table. 
+                        
+                        <br></br>
+                        <br></br>
+                        From developing efficient algorithms to designing user-friendly interfaces, 
+                        I am driven to create impactful and innovative solutions. Fuelled by a love for creativity, 
+                        I believe in the transformative power of technology and its ability to shape our world for the better. 
 
-                    <br></br>
-                    <br></br>
-                    Explore my portfolio to get a glimpse of my work, and feel free to connect—
-                    I'm always eager to dive into new and exciting ventures.
+                        <br></br>
+                        <br></br>
+                        Explore my portfolio to get a glimpse of my work, and feel free to connect—
+                        I'm always eager to dive into new and exciting ventures.
                     </p>
-                    <img src ={me} id = "me-img"/>
+                    <img src ={type4} id = "me-img"/>
 
             </div>
 
@@ -92,7 +64,7 @@ const Content=() => {
                 </h1>
 
                     <div id = "rails-project">
-                        <h2 id = "rails-h2"> Ruby on rails blog</h2>
+                        <p id = "rails-h2"> Ruby on rails blog</p>
                         <a href="https://github.com/andrewanselmo/Rails-Blog">
                             <img src ={rails} id = "rails-img"/>
                         </a>
@@ -109,9 +81,9 @@ const Content=() => {
 
             <div id = "contact">
 
-                <h1 id = "contact-h1">
+                <h2 id = "contact-h1">
                     CONTACT
-                </h1>
+                </h2>
 
                 <div id = "git-img">
                     <a href="https://github.com/andrewanselmo">

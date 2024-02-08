@@ -14,18 +14,6 @@ body {
 }
 
 
-#content{
-    
-
-      background: 
-	radial-gradient(at var(--mouse-x) var(--mouse-y), rgba(251,73,32,1), rgba(239,239,23,0.46)),
-	radial-gradient(circle at 63% 111%, rgb(238, 153, 134), rgb(149, 243, 137));
-
-    /* radial-gradient(at var(--mouse-x) var(--mouse-y), rgb(75, 75, 239), rgba(239, 99, 23, 0.46)),
-	radial-gradient(circle at 63% 111%, rgba(0,255,255,1), rgb(249, 75, 5)); */
-
-}
-
 
 
 #wrapper {
@@ -33,10 +21,13 @@ body {
     /*This part is important for centering*/
     display: grid;
     place-items: center;
-    padding-bottom: 150px;
-    padding-top: 40px;
-
     
+    padding-top: 200px;
+    /* background-color: rgba(175, 230, 173, 0.254); */
+    /* background-image: linear-gradient(red, rgb(255, 255, 0)); */
+    background-color: rgba(245, 227, 211, 0.394);
+
+
     
   }
   
@@ -48,9 +39,9 @@ body {
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 3em;
     /* cursor color */
-    color: rgb(248, 245, 244);  
+    /* color: rgb(248, 245, 244);   */
     
     
     
@@ -73,10 +64,15 @@ body {
 
 #header-text{
     font-family: 'Pixelify Sans', sans-serif;
-    /* color: rgb(134, 198, 133);     */
-    color: rgb(255, 242, 239);   
+    color: rgb(37, 37, 37);    
+    
      
     
+}
+
+#wiz-img{
+    width:23%;
+    margin-left: 60%
 }
 
 
@@ -85,7 +81,8 @@ body {
 /* about  */
 
 #about-nav-tracker{
-    height:10px
+    height:10px;
+    background-color: rgba(245, 227, 211, 0.394);
 }
 
 #about{
@@ -93,6 +90,10 @@ body {
     grid-template-columns: 2fr 2fr;
     gap: 10px;
     grid-template-rows: 0.5fr 0.5fr;
+    
+    background-color: rgba(245, 227, 211, 0.394);
+
+
     
 }
 
@@ -105,31 +106,34 @@ body {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 0.05%;
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Montserrat', sans-serif;
-    color: rgb(253, 251, 237);
+    /* color:rgb(43, 39, 175); */
+    color:rgba(105, 179, 88, 0.909);
+    /* color:rgb(31, 31, 33); */
+   
     
 
 }
 
 #me-img{
-    width: 25%;
-    height: 30%;
+
+    width: 60%;
     grid-column: 1;
     grid-row: 2;
     padding: 20px;
-    margin-left: 48%;
+    margin-left: 15%;
+    margin-bottom: 20%;
 
-    margin-top: 19%;
+    
     
     display: block;
-    border-radius: 50%;
+
 
     
 }
 
 #about-name{
-
+    
     font-size: 1.7vw;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -163,26 +167,21 @@ body {
 #about-text{
     grid-column: 2;
     grid-row: 2;
-    
+    color:rgb(18, 18, 19);
     font-size: 1.6vw;
-
     margin-right: 7%;
-    
-    margin-bottom: 17%;
-
+    margin-bottom: 16%;
     display: block;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Montserrat', sans-serif;
-    color: rgb(243, 234, 234);
     border-radius: 10px;
-    height: 75%;
-
-    
+    height: 85%;
     padding-right: 5%;
     padding-left: 5%;
+    padding-top: 2%;
 
-   
-    /* padding: 30px; */
+    border-style: solid;
+    border-width: thin;
     
 
 }
@@ -193,7 +192,8 @@ body {
 /* projects */
 
 #projects-nav-tracker{
-    height:85px
+    height:85px;
+    background-color: rgba(245, 227, 211, 0.394);
 }
 
 #projects{
@@ -201,6 +201,9 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 0.2fr 1.3fr 1.3fr;
     gap: 10px;
+    /* background-color: rgba(247, 245, 234, 0.837) */
+    background-color: rgba(245, 227, 211, 0.394);
+
 
 }
 
@@ -208,13 +211,14 @@ body {
     grid-column: 1/2;
     grid-row: 1;
     padding: 10px;
-    font-size: 2.2vw;
+    font-size: 1.8vw;
     padding-left: 15%;
     margin-top: auto;
     margin-bottom: 0.05%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:rgba(105, 179, 88, 0.909);
+    /* font-family: 'Roboto', sans-serif; */
     
-    color: rgb(255, 242, 239);
     
 
 }
@@ -246,10 +250,11 @@ body {
 }
 
 #rails-h2{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-align: center;
     margin-bottom: 0.005%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 /* rails project */
@@ -276,6 +281,8 @@ body {
     justify-content: center;
     overflow: hidden;
     margin: 0 auto;
+    background-color: rgba(245, 227, 211, 0.394);
+
     
 }
 
@@ -283,10 +290,12 @@ body {
     grid-column: 2;
     grid-row: 1;
     padding: 10px;
-    font-size: 2vw;
+    font-size: 1.4vw;
     text-align: center;
-    /* color:rgb(248, 91, 91); */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:rgba(105, 179, 88, 0.909);
+
+
 
 }
 
