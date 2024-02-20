@@ -1,5 +1,4 @@
 
-import me from "./me.jpg"
 import rails from "./rails.png"
 import mail from "./mail.png"
 import linked from "./linked.png"
@@ -8,7 +7,6 @@ import type4 from "./type4.gif"
 import wizard from "./wizard.gif"
 
 import "./Content.css"
-import {useEffect, useRef} from "react";
 
 
 const Content=() => {
