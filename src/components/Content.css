@@ -31,7 +31,7 @@ body {
   
   #header {
     /* Controls how far out the cursor goes */
-    width: 51ch; 
+    width: 48ch; 
     animation: typing 3s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -360,7 +360,8 @@ li:hover {
 
     #header{
         
-        font-size: 70%;
+        font-size: 90%;
+        width: 51ch; 
         
     }
 
