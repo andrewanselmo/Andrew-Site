@@ -369,8 +369,6 @@ li:hover {
         padding-top: 45%;
         height: 30vh;
         padding-bottom: 50%;
-        width:100%;
-
         
     }
 
@@ -391,6 +389,10 @@ li:hover {
     #mail-img{
         width:80px;
         height:80px;
+    }
+
+    #about-h1{
+        font-size: 20px;
     }
 
 
