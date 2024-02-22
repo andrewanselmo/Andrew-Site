@@ -357,7 +357,9 @@ li:hover {
 
     #wiz-img{
         width:200px;
-        margin-right: 14%;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
     #about-nav-tracker{
