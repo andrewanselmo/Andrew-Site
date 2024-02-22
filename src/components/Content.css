@@ -367,15 +367,16 @@ li:hover {
     }
 
     #header{
-        font-size: 0.9em;
+        
+        font-size: 90%;
         
         
     }
 
     #wrapper{
-        padding-top: 140px;
+        padding-top: 40%;
         height: 30vh;
-        padding-bottom: 200px;
+        padding-bottom: 50%;
         
     }
 
