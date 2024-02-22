@@ -342,14 +342,17 @@ li:hover {
     #about{
         
         gap: 10px;
-        grid-template-rows: 0.5fr 2fr 2fr;
-        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 1.5fr;
+        grid-template-columns: 2fr;
         padding-bottom: 10%;
+        padding-left:4%;
+        
+        
         
     }
 
     #me-img{
-        grid-column: 1;
+        grid-column: 1 / span 2;
         grid-row: 3;
     }
 
@@ -392,7 +395,7 @@ li:hover {
     }
 
     #about-h1{
-        font-size: 20px;
+        font-size: 30px;
     }
 
 
