@@ -14,8 +14,6 @@ body {
 }
 
 
-
-
 #wrapper {
     height: 70vh;
     /*This part is important for centering*/
@@ -33,16 +31,15 @@ body {
   
   #header {
     /* Controls how far out the cursor goes */
-    width: 48ch; 
+    width: 49ch; 
     animation: typing 3s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-right: 3px solid;
     font-family: monospace;
     font-size: 3em;
     /* cursor color */
     /* color: rgb(248, 245, 244);   */
-    
     
     
   }
@@ -65,8 +62,6 @@ body {
 #header-text{
     font-family: 'Pixelify Sans', sans-serif;
     color: rgb(37, 37, 37);    
-    
-     
     
 }
 
