@@ -31,7 +31,7 @@ body {
   
   #header {
     /* Controls how far out the cursor goes */
-    width: 49ch; 
+    width: 51ch; 
     animation: typing 3s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
