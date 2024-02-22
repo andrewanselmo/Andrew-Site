@@ -351,10 +351,7 @@ li:hover {
         grid-template-columns: 2fr 2fr;
         padding-bottom: 10%;
         
-        
     }
-
-
 
     #me-img{
         grid-column: 1;
@@ -368,15 +365,16 @@ li:hover {
 
     #header{
         
-        font-size: 90%;
-        
+        font-size: 80%;
         
     }
 
     #wrapper{
-        padding-top: 40%;
+        padding-top: 45%;
         height: 30vh;
         padding-bottom: 50%;
+        width:100%;
+
         
     }
 
