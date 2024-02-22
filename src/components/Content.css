@@ -142,7 +142,7 @@ body {
 
 }
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #about{
         
         gap: 10px;
@@ -162,7 +162,9 @@ body {
         grid-row:2;
     }
 
-} */
+
+
+}
 
 #about-text{
     grid-column: 2;
