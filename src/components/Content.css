@@ -339,41 +339,7 @@ li:hover {
 /* phone responsive */
 
 @media screen and (max-width: 800px) {
-    #about{
-        
-        gap: 10px;
-        grid-template-rows: 1fr 7fr ;
-        grid-template-columns: 2fr;
-        padding-left:4%;
-        padding:1px
-        
-    }
-
-    #about-name{
-        font-size: 25px;
-        
-    }
-
-    #about-text{
-        font-size: 23px;
-        padding-bottom:50px;
-        margin-left:4%;
-        
-        
-    }
-
-    #me-img{
-        grid-column: 1 / span 2;
-        grid-row: 3;
-        width: 80%;
-        margin-left:5%;
-    }
-
-    #about-text{
-        grid-column: 2;
-        grid-row:2;
-    }
-
+    
     #header{
         
         font-size: 70%;
@@ -392,6 +358,52 @@ li:hover {
         width:90%;
     }
 
+    #about-nav-tracker{
+        height: 45px
+    }
+
+    #about-h1{
+        font-size: 30px;
+    }
+    
+    #about{
+        
+        gap: 10px;
+        grid-template-rows: 1fr 7fr ;
+        grid-template-columns: 2fr;
+        padding:1px
+        
+    }
+
+    #about-name{
+        font-size: 25px;
+        
+    }
+
+    #about-text{
+        font-size: 23px;
+        padding-bottom:50px;
+        margin-left:0.5%;
+        margin-right:3%;
+        grid-column: 2;
+        grid-row:2;
+        
+        
+    }
+
+    #me-img{
+        grid-column: 1 / span 2;
+        grid-row: 3;
+        width: 80%;
+        margin-left:5%;
+    }
+
+    #about-text{
+        grid-column: 2;
+        grid-row:2;
+    }
+
+
     #git-img{
         width:80px;
         height:80px;
@@ -407,9 +419,6 @@ li:hover {
         height:80px;
     }
 
-    #about-h1{
-        font-size: 30px;
-    }
 
 
 
