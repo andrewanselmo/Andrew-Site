@@ -22,7 +22,7 @@ const Navbar=() => {
               PROJECTS
             </li>
           </Link>
-          <Link activeClass="active" smooth spy to="contact">
+          <Link activeClass="active" smooth spy to="contact-nav-tracker">
             <li>
               CONTACT
             </li>

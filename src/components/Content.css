@@ -187,7 +187,8 @@ body {
     grid-row: 1;
     padding: 10px;
     font-size: 1.8vw;
-    padding-left: 15%;
+    
+    text-align: center;
     margin-top: auto;
     margin-bottom: 0.05%;
     font-family: 'Montserrat', sans-serif;
@@ -355,11 +356,12 @@ li:hover {
     }
 
     #wiz-img{
-        width:90%;
+        width:200px;
+        margin-right: 14%;
     }
 
     #about-nav-tracker{
-        height: 45px
+        height: 80px
     }
 
     #about-h1{
@@ -405,19 +407,19 @@ li:hover {
 
     #projects{
         gap: 10px;
-        grid-template-rows: 1fr 7fr ;
+        grid-template-rows: 1fr 3fr ;
         /* grid-template-columns: 1fr; */
-        padding:1px;
-        width: 100%
+        width: 100%;
+        padding-bottom: 50%;
+        
         
     }
 
     #projects-h1{
         font-size: 30px;
         grid-column: 1 / span 2;
-        margin-bottom: 5%;
-        margin-left: 13%;
-        margin-right: 13%
+        margin-bottom: 15%;
+        
     }
 
     #rails-h2{
@@ -429,15 +431,19 @@ li:hover {
     #rails-project{
         width: 100%;
         grid-column: 1 / span 2;
-        padding: 0px
+        padding: 0px;
+        
 
     }
 
     #rails-img{
-        width: 100%;
         padding: 0px;
- 
+        width: 95%;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
+
 
     #contact-h1{
         font-size: 20px;

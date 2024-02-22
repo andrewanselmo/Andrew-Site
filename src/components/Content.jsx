@@ -77,6 +77,8 @@ const Content=() => {
 
             </div>
 
+            
+
             <div id = "contact">
 
                 <h2 id = "contact-h1">
@@ -102,6 +104,8 @@ const Content=() => {
                 </div>
 
             </div>
+
+            <div id = "contact-nav-tracker"></div>
 
             {/* resume */}
 
