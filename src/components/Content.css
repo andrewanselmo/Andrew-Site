@@ -378,6 +378,21 @@ li:hover {
         width:90%;
     }
 
+    #git-img{
+        width:60px;
+        height:60px;
+    }
+
+    #linked-img{
+        width:65px;
+        height:65px;
+    }
+
+    #mail-img{
+        width:60px;
+        height:60px;
+    }
+
 
 
 }
