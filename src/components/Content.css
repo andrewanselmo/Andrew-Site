@@ -403,6 +403,46 @@ li:hover {
         grid-row:2;
     }
 
+    #projects{
+        gap: 10px;
+        grid-template-rows: 1fr 7fr ;
+        /* grid-template-columns: 1fr; */
+        padding:1px;
+        width: 100%
+        
+    }
+
+    #projects-h1{
+        font-size: 30px;
+        grid-column: 1 / span 2;
+        margin-bottom: 5%;
+        margin-left: 13%;
+        margin-right: 13%
+    }
+
+    #rails-h2{
+        font-size: 18px;
+        margin-bottom: 5%;
+        
+    }
+
+    #rails-project{
+        width: 100%;
+        grid-column: 1 / span 2;
+        padding: 0px
+
+    }
+
+    #rails-img{
+        width: 100%;
+        padding: 0px;
+ 
+    }
+
+    #contact-h1{
+        font-size: 20px;
+    }
+
 
     #git-img{
         width:80px;
