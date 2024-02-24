@@ -3,8 +3,9 @@ import rails from "./rails.png"
 import mail from "./mail.png"
 import linked from "./linked.png"
 import git from "./git.png"
-import type4 from "./type4.gif"
+import typing5 from "./typing5.gif"
 import wizard from "./wizard.gif"
+import retail from "./retail.png"
 
 import "./Content.css"
 
@@ -50,7 +51,7 @@ const Content=() => {
                         Explore my portfolio to get a glimpse of my work, and feel free to connect—
                         I'm always eager to dive into new and exciting ventures.
                     </p>
-                    <img src ={type4} id = "me-img"/>
+                    <img src ={typing5} id = "me-img"/>
 
             </div>
 
@@ -68,12 +69,16 @@ const Content=() => {
                         </a>
 
                     </div>
+
+                    <div id = "rails2-project">
+                        <p id = "rails2-h2"> Ecommerce website</p>
+                        <a href="https://github.com/andrewanselmo/Rails-Blog">
+                            <img src ={retail} id = "rails2-img"/>
+                        </a>
+
+                    </div>
                 
 
-                {/* <div id = "another-project">
-                    <h2 id = "another-h2"> Another project</h2>
-                    <img src ={rails} id = "another-img"/>
-                </div> */}
 
             </div>
 

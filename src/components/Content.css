@@ -173,8 +173,8 @@ body {
 
 #projects{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.2fr 1.3fr 1.3fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 0.2fr 5fr 7fr;
     gap: 10px;
     /* background-color: rgba(247, 245, 234, 0.837) */
     background-color: rgba(245, 227, 211, 0.394);
@@ -183,17 +183,16 @@ body {
 }
 
 #projects-h1{
-    grid-column: 1/2;
+    grid-column: 2;
     grid-row: 1;
     padding: 10px;
-    font-size: 1.8vw;
+    font-size: 1.9vw;
     
     text-align: center;
     margin-top: auto;
-    margin-bottom: 0.05%;
-    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4%;
     color:rgba(105, 179, 88, 0.909);
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     
     
 
@@ -210,13 +209,13 @@ body {
 }
 
 #rails-project{
-    width: 400px;
+    width: 410px;
     overflow: hidden;
     margin: 0 auto;
 }
 
 #rails-img{
-    width: 90%;
+    width: 95%;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
 }
@@ -235,13 +234,41 @@ body {
 
 /* rails project */
 
-/* another project */
+/* retail */
 
+#rails2-img, #rails2-project{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 20px;
+    display: block;
+    border-radius: 40px;
+}
 
-/* another project */
+#rails2-project{
+    width: 410px;
+    overflow: hidden;
+    margin: 0 auto;
+}
 
+#rails2-img{
+    width: 95%;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
 
+#rails2-project:hover img {
+    transform: scale(1.05);
+}
 
+#rails2-h2{
+    font-size: 1.3vw;
+    text-align: center;
+    margin-bottom: 0.005%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+/* retail */
 
 /* projects */
 
@@ -420,8 +447,8 @@ li:hover {
 
     #projects-h1{
         font-size: 30px;
-        grid-column: 1 / span 2;
-        margin-bottom: 15%;
+        grid-column: 2;
+        margin-bottom: 30%;
         
     }
 
@@ -433,7 +460,7 @@ li:hover {
 
     #rails-project{
         width: 100%;
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 3;
         padding: 0px;
         
 
@@ -446,6 +473,32 @@ li:hover {
         margin-left: auto;
         margin-right: auto;
     }
+
+    #rails2-h2{
+        font-size: 18px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+
+    #rails2-project{
+        width: 100%;
+        grid-column: 1 / span 3;
+        grid-row: 3;
+        padding: 0px;
+        
+
+    }
+
+    #rails2-img{
+        padding: 0px;
+        width: 95%;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 
 
     #contact-h1{
