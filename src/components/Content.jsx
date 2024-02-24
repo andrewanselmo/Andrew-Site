@@ -6,6 +6,7 @@ import git from "./git.png"
 import typing5 from "./typing5.gif"
 import wizard from "./wizard.gif"
 import retail from "./retail.png"
+import bsf from "./bsf.png"
 
 import "./Content.css"
 
@@ -74,6 +75,14 @@ const Content=() => {
                         <p id = "rails2-h2"> Ecommerce website</p>
                         <a href="https://github.com/andrewanselmo/Rails-Blog">
                             <img src ={retail} id = "rails2-img"/>
+                        </a>
+
+                    </div>
+
+                    <div id = "rails3-project">
+                        <p id = "rails3-h2"> BSF volunteer app</p>
+                        <a href="https://github.com/andrewanselmo/Rails-Blog">
+                            <img src ={bsf} id = "rails3-img"/>
                         </a>
 
                     </div>
