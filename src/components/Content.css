@@ -23,7 +23,7 @@ body {
     padding-top: 200px;
     /* background-color: rgba(175, 230, 173, 0.254); */
     /* background-image: linear-gradient(red, rgb(255, 255, 0)); */
-    background-color: rgba(245, 227, 211, 0.394);
+    /* background-color: rgba(245, 227, 211, 0.394); */
 
 
     
@@ -77,7 +77,7 @@ body {
 
 #about-nav-tracker{
     height:10px;
-    background-color: rgba(245, 227, 211, 0.394);
+    /* background-color: rgba(245, 227, 211, 0.394); */
 }
 
 #about{
@@ -86,7 +86,7 @@ body {
     gap: 10px;
     grid-template-rows: 0.5fr 0.5fr;
     
-    background-color: rgba(245, 227, 211, 0.394);
+    /* background-color: rgba(245, 227, 211, 0.394); */
 
 
     
@@ -168,7 +168,7 @@ body {
 
 #projects-nav-tracker{
     height:85px;
-    background-color: rgba(245, 227, 211, 0.394);
+    /* background-color: rgba(245, 227, 211, 0.394); */
 }
 
 #projects{
@@ -177,7 +177,7 @@ body {
     grid-template-rows: 0.2fr 5fr 7fr;
     gap: 10px;
     /* background-color: rgba(247, 245, 234, 0.837) */
-    background-color: rgba(245, 227, 211, 0.394);
+    /* background-color: rgba(245, 227, 211, 0.394); */
 
 
 }
