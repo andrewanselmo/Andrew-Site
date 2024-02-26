@@ -63,6 +63,10 @@ const Content=() => {
                     PROJECTS
                 </h1>
 
+                    <p id = "project-intro">
+                        These are some of my favorite projects. Explore each of their use cases, repositories, and demos.
+                    </p>
+
                     <div id = "rails-project">
                         <p id = "rails-h2"> Ruby on rails blog</p>
                         <a href="https://github.com/andrewanselmo/Rails-Blog">
@@ -96,7 +100,7 @@ const Content=() => {
             <div id = "contact">
 
                 <h2 id = "contact-h1">
-                    CONTACT
+                    Let's Connect
                 </h2>
 
                 <div id = "git-img">
