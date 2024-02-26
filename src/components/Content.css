@@ -117,7 +117,7 @@ body {
     grid-row: 2;
     padding: 20px;
     margin-left: 15%;
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
 
     
     
@@ -145,7 +145,7 @@ body {
     color:rgb(18, 18, 19);
     font-size: 1.6vw;
     margin-right: 7%;
-    margin-bottom: 16%;
+    /* margin-bottom: 16%; */
     display: block;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Montserrat', sans-serif;
@@ -154,6 +154,7 @@ body {
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 2%;
+    padding-bottom: 7%;
 
     border-style: solid;
     border-width: thin;
@@ -177,7 +178,7 @@ body {
     grid-template-rows: 0.2fr 5fr 7fr;
     gap: 10px;
     /* background-color: rgba(247, 245, 234, 0.837) */
-    background-color: rgba(245, 227, 211, 0.394);
+    /* background-color: rgba(245, 227, 211, 0.394); */
 
 
 }
@@ -203,21 +204,25 @@ body {
 #rails-img, #rails-project{
     grid-column: 1;
     grid-row: 2;
-    padding: 20px;
+    /* padding: 20px; */
     display: block;
     border-radius: 40px;
+    
 }
 
 #rails-project{
-    width: 410px;
+    width: 430px;
     overflow: hidden;
     margin: 0 auto;
+    
 }
 
 #rails-img{
     width: 95%;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
+    border: 2px solid #555;
+    
 }
 
 #rails-project:hover img {
@@ -239,13 +244,13 @@ body {
 #rails2-img, #rails2-project{
     grid-column: 2;
     grid-row: 2;
-    padding: 20px;
+    /* padding: 20px; */
     display: block;
     border-radius: 40px;
 }
 
 #rails2-project{
-    width: 410px;
+    width: 430px;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -254,6 +259,8 @@ body {
     width: 95%;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
+    border: 2px solid #555;
+
 }
 
 #rails2-project:hover img {
@@ -280,7 +287,7 @@ body {
 }
 
 #rails3-project{
-    width: 410px;
+    width: 430px;
     overflow: hidden;
     margin: 0 auto;
 }
