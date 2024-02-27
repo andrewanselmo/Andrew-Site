@@ -532,12 +532,14 @@ li:hover {
         font-size: 30px;
         grid-column: 2;
         margin-bottom: 38%;
+        padding-bottom: 39%;
         
     }
 
     #project-intro{
         font-size: 20px;
         grid-column: 1 / span 3;
+
         padding: 20px;
         
     }
