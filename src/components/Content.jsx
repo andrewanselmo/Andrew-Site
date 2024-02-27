@@ -46,7 +46,7 @@ const Content=() => {
                         <br></br>
                         <br></br>
                         From developing efficient algorithms to designing user-friendly interfaces, 
-                        I am driven to create impactful and innovative solutions. Fuelled by a love for creativity, 
+                        I am driven to create impactful and innovative solutions. Fueled by a love for creativity, 
                         I believe in the transformative power of technology and its ability to shape our world for the better. 
 
                         <br></br>
@@ -79,7 +79,7 @@ const Content=() => {
 
                     <div id = "rails2-project">
                         <p id = "rails2-h2"> Ecommerce website</p>
-                        <a href="https://github.com/andrewanselmo/Rails-Blog">
+                        <a href="https://github.com/andrewanselmo/next/tree/main">
                             <img src ={retail} id = "rails2-img"/>
                         </a>
 
@@ -87,7 +87,7 @@ const Content=() => {
 
                     <div id = "rails3-project">
                         <p id = "rails3-h2"> BSF volunteer app</p>
-                        <a href="https://github.com/andrewanselmo/Rails-Blog">
+                        <a href="https://github.com/423s23/G3-BSF">
                             <img src ={bsf} id = "rails3-img"/>
                         </a>
 
