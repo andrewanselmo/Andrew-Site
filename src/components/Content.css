@@ -531,12 +531,12 @@ li:hover {
     #projects-h1{
         font-size: 30px;
         grid-column: 2;
-        margin-bottom: 35%;
+        margin-bottom: 38%;
         
     }
 
     #project-intro{
-        font-size: 16px;
+        font-size: 20px;
         grid-column: 1 / span 3;
         padding: 20px;
         
