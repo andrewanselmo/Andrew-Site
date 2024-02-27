@@ -7,6 +7,8 @@ import typing5 from "./typing5.gif"
 import wizard from "./wizard.gif"
 import retail from "./retail.png"
 import bsf from "./bsf.png"
+// import wizard2 from "./wiz-color.gif"
+
 
 import "./Content.css"
 
