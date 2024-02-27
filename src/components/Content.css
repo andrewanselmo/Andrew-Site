@@ -472,8 +472,10 @@ li:hover {
     }
 
     #about-nav-tracker{
-        height: 80px
+        height: 80px;
+
     }
+
 
     #about-h1{
         font-size: 30px;
