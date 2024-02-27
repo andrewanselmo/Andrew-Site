@@ -245,7 +245,7 @@ body {
     height: 68%;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
-    border: 2px solid #555;
+    border: 1.2px solid #555;
     margin: auto;
     margin-top: 2%;
    
@@ -293,7 +293,7 @@ body {
 
     cursor: pointer;
     transition: 0.2s all ease-in-out;
-    border: 2px solid #555;
+    border: 1.2px solid #555;
     margin: auto;
     margin-top: 2%;
    
@@ -334,7 +334,7 @@ body {
     height: 68%;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
-    border: 2px solid #555;
+    border: 1.2px solid #555;
     margin: auto;
     margin-top: 2%;
 }
