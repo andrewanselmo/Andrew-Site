@@ -7,6 +7,8 @@ import typing5 from "./typing5.gif"
 import wizard from "./wizard.gif"
 import retail from "./retail.png"
 import bsf from "./bsf.png"
+import pirate from "./pirate.png"
+
 // import wizard2 from "./wiz-color.gif"
 
 
@@ -89,6 +91,14 @@ const Content=() => {
                         <p id = "rails3-h2"> BSF volunteer app</p>
                         <a href="https://github.com/423s23/G3-BSF">
                             <img src ={bsf} id = "rails3-img"/>
+                        </a>
+
+                    </div>
+
+                    <div id = "rails4-project">
+                        <p id = "rails4-h2"> Pirate</p>
+                        <a href="https://github.com/andrewanselmo/pirate">
+                            <img src ={pirate} id = "rails4-img"/>
                         </a>
 
                     </div>
