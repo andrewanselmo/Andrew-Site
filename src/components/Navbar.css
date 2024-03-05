@@ -13,6 +13,7 @@ nav {
     width: 97%;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Roboto', sans-serif;
+    z-index: 1;
     
   }
 
@@ -24,6 +25,7 @@ nav {
     flex: 1;
     
     
+    
   }
 
   ul{
@@ -32,6 +34,7 @@ nav {
     font-size: 1.2rem;
     list-style: none;
     padding: 0;
+    
     
   }
 
