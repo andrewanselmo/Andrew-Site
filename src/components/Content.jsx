@@ -12,7 +12,7 @@ import compiler from "./Compiler.png"
 import career from "./career.jpg"
 import escape1 from "./escape.png"
 import biw from "./biw.png"
-import db from "./DB.png"
+import db from "./db.png"
 
 // import wizard2 from "./wiz-color.gif"
 
