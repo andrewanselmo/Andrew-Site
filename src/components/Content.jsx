@@ -8,6 +8,11 @@ import wizard from "./wizard.gif"
 import retail from "./retail.png"
 import bsf from "./bsf.png"
 import pirate from "./pirate.png"
+import compiler from "./compiler.png"
+import career from "./career.jpg"
+import escape1 from "./escape.png"
+import biw from "./biw.png"
+import db from "./DB.png"
 
 // import wizard2 from "./wiz-color.gif"
 
@@ -96,9 +101,50 @@ const Content=() => {
                     </div>
 
                     <div id = "rails4-project">
-                        <p id = "rails4-h2"> Pirate</p>
+                        <p id = "rails4-h2"> Pirate translator</p>
                         <a href="https://github.com/andrewanselmo/pirate">
                             <img src ={pirate} id = "rails4-img"/>
+                        </a>
+
+                    </div>
+
+                    <div id = "rails5-project">
+                        <p id = "rails5-h2"> CatScript compiler</p>
+                        <a href="https://github.com/andrewanselmo/Catscript-Compiler/tree/main">
+                            <img src ={compiler} id = "rails5-img"/>
+                        </a>
+
+                    </div>
+
+                    <div id = "rails6-project">
+                        <p id = "rails6-h2"> Career Finder</p>
+                        <a href="https://new.express.adobe.com/webpage/fD6F5mwAOeoY8">
+                            <img src ={career} id = "rails6-img"/>
+                        </a>
+
+                    </div>
+
+
+                    <div id = "rails7-project">
+                        <p id = "rails7-h2"> Escape room</p>
+                        <a href="https://github.com/andrewanselmo/escape-room">
+                            <img src ={escape1} id = "rails7-img"/>
+                        </a>
+
+                    </div>
+
+                    <div id = "rails8-project">
+                        <p id = "rails8-h2"> BIW intern project</p>
+                        <a href="https://docs.google.com/presentation/d/1Q6g8rWt8bWN66Btj0WhqqmxTQ_fVzY9jLa0SHN6EnuI/edit#slide=id.g143416c2021_0_6">
+                            <img src ={biw} id = "rails8-img"/>
+                        </a>
+
+                    </div>
+
+                    <div id = "rails9-project">
+                        <p id = "rails9-h2"> Database</p>
+                        <a href="https://github.com/andrewanselmo/database-project/tree/main">
+                            <img src ={db} id = "rails9-img"/>
                         </a>
 
                     </div>
