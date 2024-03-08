@@ -142,7 +142,7 @@ const Content=() => {
                     </div>
 
                     <div id = "rails9-project">
-                        <p id = "rails9-h2"> Database</p>
+                        <p id = "rails9-h2"> Database interface</p>
                         <a href="https://github.com/andrewanselmo/database-project/tree/main">
                             <img src ={db} id = "rails9-img"/>
                         </a>
