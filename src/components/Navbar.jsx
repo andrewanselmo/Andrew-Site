@@ -27,11 +27,14 @@ const Navbar=() => {
               CONTACT
             </li>
           </Link>
-          <Link activeClass="active" smooth spy to=" ">
-            <li>
-              RESUME
-            </li>
-          </Link>
+
+              <a href ="https://drive.google.com/file/d/1MVHnq55ohXH8swgaa13bpTG_MN49cVTR/view">
+                <li>
+                  RESUME
+                </li>
+              </a>
+    
+          
           
         </ul>
       </nav>
