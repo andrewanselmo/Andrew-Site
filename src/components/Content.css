@@ -190,6 +190,7 @@ body {
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 2fr 5fr 5fr 5fr;
     gap: 10px;
+    margin-bottom: 10%;
     /* background-color: rgba(245, 227, 211, 0.394); */
 
     
@@ -222,7 +223,7 @@ body {
 
     border: 1px solid #555;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color:rgba(100, 62, 216, 0.909);
+    background-color:rgba(115, 147, 230, 0.909);
     
     color: white;
     border-radius: 50px;
@@ -627,7 +628,8 @@ body {
     justify-content: center;
     overflow: hidden;
     margin: 0 auto;
-    /* background-color: rgba(245, 227, 211, 0.284); */
+    background-color:rgba(216, 227, 252, 0.909);
+    
 
     
 }
@@ -640,7 +642,15 @@ body {
     font-size: 1.4vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color:rgba(69, 18, 221, 0.909);
+    color:rgba(18, 29, 132, 0.909);
+
+
+    border: 1px solid #555;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
 
 }
 
@@ -659,6 +669,7 @@ body {
     width: 100px;
     margin-left: auto;
     margin-right: 0.01%;
+    margin-bottom: 10%;
 }
 
 #git-img:hover img{
@@ -672,6 +683,7 @@ body {
     width: 108px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10%;
 }
 
 #linked-img:hover img{
@@ -685,6 +697,7 @@ body {
     width: 100px;
     margin-left: 0.01%;
     margin-right: auto;
+    margin-bottom: 10%;
     
 }
 
@@ -781,7 +794,7 @@ li:hover {
 
     #projects{
         gap: 10px;
-        grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
         /* grid-template-columns: 1fr; */
         width: 100%;
         padding-bottom: 50%;
@@ -790,9 +803,9 @@ li:hover {
     }
 
     #projects-h1{
-        font-size: 30px;
+        font-size: 25px;
         grid-column: 2;
-        margin-bottom: 38%;
+        margin-bottom: 70%;
         padding-bottom: 39%;
         
     }
@@ -800,8 +813,9 @@ li:hover {
     #project-intro{
         font-size: 20px;
         grid-column: 1 / span 3;
-
-        padding: 20px;
+        padding: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
         
     }
 
