@@ -897,7 +897,7 @@ li:hover {
 
 /* phone responsive */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 700px) {
     
     #header{
         
@@ -967,6 +967,64 @@ li:hover {
         grid-column: 2;
         grid-row:2;
     }
+
+    /* compiler - proj2  */
+
+    #proj-compiler{
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+
+    #proj-compiler-p{
+        grid-column: 1/ span 2 ;
+        font-size: 16px;
+        margin-top: 10%;
+        padding: 15px;
+    }
+    #proj-compiler-h{
+        grid-column: 1/ span 2 ;
+        font-size: 20px;
+        margin-left: 6%;
+    }
+
+    #proj-compiler-img{
+        opacity: 0;
+    }
+
+    #comp-tech1{
+        margin-top: 310px;
+        width: 100px;
+        font-size: 16px;
+        grid-column: 1/ span 2 ;
+    }
+
+    #comp-tech2{
+        margin-top: 310px;
+        width: 100px;
+        font-size: 16px;
+        grid-column: 1/ span 2 ;
+    }
+
+    #button1{
+        margin-top: 410px;
+        margin-left: 6%;
+        font-size: 14px;
+        width: 100px;
+        grid-column: 1/ span 2 ;
+        
+    }
+
+    #button2{
+        margin-top: 410px;
+        margin-left: 25%;
+        font-size: 14px;
+        width: 100px;
+        grid-column: 1/ span 2 ;
+    }
+
+    /* compiler proj 2  */
+
+
 
     #projects{
         gap: 10px;

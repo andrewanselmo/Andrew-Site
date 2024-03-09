@@ -167,8 +167,6 @@ const Content=() => {
                             We were provided wiith a web interface to interact directly with the CatScript compiler so you can see each of the processes in real time.
                         </p>
 
-                        
-
                             <p id = "comp-tech1">
                                 Java 
                             </p>
@@ -176,8 +174,6 @@ const Content=() => {
                             <p id = "comp-tech2">
                                 Compiler 
                             </p>
-
-                        
 
                             <a id = "button1" href="https://youtu.be/MdFMTVmyl3E">
                                 Demo
