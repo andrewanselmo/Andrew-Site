@@ -184,6 +184,8 @@ body {
     display: grid;
     gap: 10px;
     grid-template-rows: 2fr 2fr 2fr;
+
+    place-items: center
     
 
 
@@ -194,22 +196,28 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.5fr 0.2fr;
 
-    margin-right: 12%;
-    margin-left: 12%;
+
+    
+    
+    width: 80%;
 
     border-radius: 15px;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    
 
 }
 
 #proj-compiler-img{
     width: 100%;
     grid-column: 1;
+    grid-row: 1/ span 2; 
 
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -217,13 +225,13 @@ body {
 
 #proj-compiler-h{
 
-    font-size: 1.7vw;
-    padding-top: 5%;
+    font-size: 26px;
+    padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
     grid-column: 2;
     grid-row: 1;
 
-    margin-left: 3%;
+    margin-left: 15px;
 
     color:rgb(104, 104, 107);
 
@@ -236,19 +244,22 @@ body {
 
 #proj-compiler-p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3vw;
+    font-size: 20px;
     grid-column: 2;
     grid-row: 1;
 
-    margin-right:3%;
-    margin-left: 3%;
+    margin-right:15px;
+    margin-left: 15px;
 
 
     padding: 5px;
 
-    padding-top: 15%;
+    padding-top: 85px;
+    
     
     color:rgb(104, 104, 107);
+
+    
 
     
 
@@ -256,16 +267,16 @@ body {
 
 #button1, #button2{
     grid-column: 2;
-    grid-row: 1; 
-    margin-top: 64%;
-    width: 19%;
-    height: 11%;
+    grid-row: 2; 
+
+    margin-top: 120px;
+
+    width: 100px;
+    height: 45px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #747fe0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: none;
     border-radius: 10px;
-    color: white;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -274,10 +285,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 #button1{
-    margin-left: 3%;
+    margin-left: 15px;
+    background-color: #747fe0;
+    color: white;
 }
 
 #button1:after {
@@ -300,7 +314,9 @@ body {
   }
 
 #button2{
-    margin-left: 26%;
+    color: #747fe0;
+    background-color: white;
+    margin-left: 140px;
     
 }
 
@@ -325,10 +341,12 @@ body {
 
 #comp-tech1, #comp-tech2, #comp-tech3{
     grid-column: 2;
-    grid-row: 1; 
-    margin-top: 52%;
-    width: 15%;
-    height: 6%;
+    grid-row: 2; 
+
+    margin-top:45px;
+
+    width: 90px;
+    height: 25px;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     
@@ -338,24 +356,24 @@ body {
     border-width: 3px;
 
 
-    font-size: 1vw;
+    font-size: 16px;
     text-align: center;
     
-    padding-top: 1%;
+    padding-top: 5px;
 }
 
 #comp-tech1{
-    margin-left: 3%;
-    width: 12%;
+    margin-left: 15px;
+    width: 70px;
 }
 
 #comp-tech2{
-    margin-left: 18%;
+    margin-left: 100px;
 }
 
 #comp-tech3{
-    margin-left: 36.5%;
-    width: 12%;
+    margin-left: 205px;
+    width: 80px;
 }
 
 /* proj2 */
@@ -904,7 +922,7 @@ li:hover {
 
 /* phone responsive */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1300px) {
     
     #header{
         
@@ -977,61 +995,33 @@ li:hover {
 
     /* compiler - proj2  */
 
-    #proj-compiler{
-        margin-right: 6%;
-        margin-left: 6%;
-        height: 86%;
-    }
 
     #proj-compiler-p{
-        grid-column: 1/ span 2 ;
-        font-size: 16px;
-        margin-top: 10%;
-        padding: 5%;
+        grid-column: 1/ span 2 ;    
+        
         
     }
+    
     #proj-compiler-h{
         grid-column: 1/ span 2 ;
-        font-size: 20px;
-        padding-left: 5%;
     }
 
     #proj-compiler-img{
         opacity: 0;
+        width: 0%;
     }
 
     #comp-tech1, #comp-tech2, #comp-tech3{
-        margin-top: 100%;
-        margin-left: 8%;
-        width: 70px;
-        font-size: 16px;
-        grid-column: 1/ span 2 ;
-    }
-
-    #comp-tech2{
-        margin-left: 34%;
-        width: 25%;
-    }
-
-    #comp-tech3{
-        margin-left: 64%;
-    }
-
-
-
-    #button1, #button2{
-        margin-top: 120%;
-        margin-left: 6%;
-        height: 10%;
-        font-size: 14px;
-        width: 100px;
         grid-column: 1/ span 2 ;
         
     }
 
-    #button2{
-        margin-top: 138%;
+    #button1, #button2{
+        grid-column: 1/ span 2 ; 
+        
     }
+
+   
 
 
     /* compiler proj 2  */
@@ -1349,5 +1339,7 @@ li:hover {
 
 
 }
+
+@media screen and (max-width: 500px) {}
 
 /* phone responsive */

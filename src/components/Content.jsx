@@ -163,20 +163,26 @@ const Content=() => {
                         <h2 id = "proj-compiler-h"> CatScript compiler</h2>
                         <p id = "proj-compiler-p"> 
                             For my senior capstone at MSU I developed a compiler for a custom programming language, CatScript. 
-                            For each of the rules found in the CatScript grammar we implemented methods to tokenize, parse, evaluate, and then compile. 
+                            For each of the rules found in the CatScript grammar we implemented methods to tokenize, parse, evaluate, and then generate code. 
                             We were provided with a web interface to interact directly with the CatScript compiler so you can see each of the processes in real time.
                         </p>
+
+                        
+                        {/* <div id = "bottom-stuff"> */}
                             <p id = "comp-tech1">Java </p>
 
                             <p id = "comp-tech2">Compiler</p>
 
                             <p id = "comp-tech3">JUnit</p>
+                            
 
                             <a id = "button1" href="https://youtu.be/MdFMTVmyl3E">Demo</a>
 
                             <a id = "button2" href="https://github.com/andrewanselmo/Catscript-Compiler/tree/main">
                                 GitHub
-                            </a>           
+                            </a>    
+
+                        {/* </div>        */}
 
                     </div>
 
