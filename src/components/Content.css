@@ -995,6 +995,10 @@ li:hover {
 
     /* compiler - proj2  */
 
+    #proj-compiler{
+        width: 90%;
+    }
+
 
     #proj-compiler-p{
         grid-column: 1/ span 2 ;    
@@ -1339,7 +1343,5 @@ li:hover {
 
 
 }
-
-@media screen and (max-width: 500px) {}
 
 /* phone responsive */
