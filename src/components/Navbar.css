@@ -10,7 +10,7 @@ nav {
 
     top: 0;
     left: 0;
-    width: 97%;
+    width: 100%;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Roboto', sans-serif;
     z-index: 1;
@@ -54,14 +54,14 @@ a:active {
     
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
 
     ul{
       font-size: 85%;
     }
 
     .nav__container__actions {
-      /* padding-left: 15px; */
+      padding-left: 15px;
     }
 
 

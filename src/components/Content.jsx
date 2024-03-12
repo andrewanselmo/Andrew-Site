@@ -67,7 +67,7 @@ const Content=() => {
 
             <div id = "projects-nav-tracker"></div>
 
-            <div id = "projects">
+            {/* <div id = "projects">
                 <h1 id = "projects-h1">
                     PROJECTS
                 </h1>
@@ -151,10 +151,11 @@ const Content=() => {
                 
 
 
-            </div>
+            </div> */}
 
             <div id = "proj">
-                
+
+                    <h2 id = "proj-h">PROJECTS</h2>
 
                     <div id = "proj-compiler">
                     
@@ -167,23 +168,20 @@ const Content=() => {
                             We were provided with a web interface to interact directly with the CatScript compiler so you can see each of the processes in real time.
                         </p>
 
-                        
-                        {/* <div id = "bottom-stuff"> */}
-                            <p id = "comp-tech1">Java </p>
+                        <p id = "comp-tech1">Java </p>
 
-                            <p id = "comp-tech2">Compiler</p>
+                        <p id = "comp-tech2">Compiler</p>
 
-                            <p id = "comp-tech3">JUnit</p>
+                        <p id = "comp-tech3">JUnit</p>
                             
 
-                            <a id = "button1" href="https://youtu.be/MdFMTVmyl3E">Demo</a>
+                        <a id = "button1" href="https://youtu.be/MdFMTVmyl3E">Demo</a>
 
-                            <a id = "button2" href="https://github.com/andrewanselmo/Catscript-Compiler/tree/main">
+                        <a id = "button2" href="https://github.com/andrewanselmo/Catscript-Compiler/tree/main">
                                 GitHub
-                            </a>    
+                        </a>    
 
-                        {/* </div>        */}
-
+                    
                     </div>
 
 
