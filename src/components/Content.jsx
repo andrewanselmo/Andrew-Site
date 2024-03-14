@@ -67,95 +67,10 @@ const Content=() => {
 
             <div id = "projects-nav-tracker"></div>
 
-            {/* <div id = "projects">
-                <h1 id = "projects-h1">
-                    PROJECTS
-                </h1>
-
-                    <p id = "project-intro">
-                        These are some of my favorite projects. Explore each of their use cases, repositories, and demos.
-                    </p>
-
-                    <div id = "rails-project">
-                        <p id = "rails-h2"> Ruby on rails blog</p>
-                        <a href="https://github.com/andrewanselmo/Rails-Blog">
-                            <img src ={rails} id = "rails-img"/>
-                        </a>
-
-                    </div>
-
-                    <div id = "rails2-project">
-                        <p id = "rails2-h2"> Ecommerce website</p>
-                        <a href="https://github.com/andrewanselmo/next/tree/main">
-                            <img src ={retail} id = "rails2-img"/>
-                        </a>
-
-                    </div>
-
-                    <div id = "rails3-project">
-                        <p id = "rails3-h2"> BSF volunteer app</p>
-                        <a href="https://github.com/423s23/G3-BSF">
-                            <img src ={bsf} id = "rails3-img"/>
-                        </a>
-
-                    </div>
-
-                    <div id = "rails4-project">
-                        <p id = "rails4-h2"> Pirate translator</p>
-                        <a href="https://github.com/andrewanselmo/pirate">
-                            <img src ={pirate} id = "rails4-img"/>
-                        </a>
-
-                    </div>
-
-                    <div id = "rails5-project">
-                        <p id = "rails5-h2"> CatScript compiler</p>
-                        <a href="https://github.com/andrewanselmo/Catscript-Compiler/tree/main">
-                            <img src ={compiler} id = "rails5-img"/>
-                        </a>
-
-                    </div>
-
-                    <div id = "rails6-project">
-                        <p id = "rails6-h2"> Career Finder</p>
-                        <a href="https://new.express.adobe.com/webpage/fD6F5mwAOeoY8">
-                            <img src ={career} id = "rails6-img"/>
-                        </a>
-
-                    </div>
-
-
-                    <div id = "rails7-project">
-                        <p id = "rails7-h2"> Escape room</p>
-                        <a href="https://github.com/andrewanselmo/escape-room">
-                            <img src ={escape1} id = "rails7-img"/>
-                        </a>
-
-                    </div>
-
-                    <div id = "rails8-project">
-                        <p id = "rails8-h2"> BIW intern project</p>
-                        <a href="https://docs.google.com/presentation/d/1Q6g8rWt8bWN66Btj0WhqqmxTQ_fVzY9jLa0SHN6EnuI/edit#slide=id.g143416c2021_0_6">
-                            <img src ={biw} id = "rails8-img"/>
-                        </a>
-
-                    </div>
-
-                    <div id = "rails9-project">
-                        <p id = "rails9-h2"> Database interface</p>
-                        <a href="https://github.com/andrewanselmo/database-project/tree/main">
-                            <img src ={db} id = "rails9-img"/>
-                        </a>
-
-                    </div>
-                
-
-
-            </div> */}
 
             <div id = "proj">
 
-                    <h2 id = "proj-h">PROJECTS</h2>
+                <h2 id = "proj-h">PROJECTS</h2>
 
                     <div id = "proj-compiler">
                     
@@ -163,14 +78,14 @@ const Content=() => {
                         
                         <h2 id = "proj-compiler-h"> CatScript compiler</h2>
                         <p id = "proj-compiler-p"> 
-                            For my senior capstone at MSU I developed a compiler for a custom programming language, CatScript. 
+                            Senior capstone project at MSU. Developed a compiler for the custom programming language CatScript. 
                             For each of the rules found in the CatScript grammar we implemented methods to tokenize, parse, evaluate, and then generate code. 
                             We were provided with a web interface to interact directly with the CatScript compiler so you can see each of the processes in real time.
                         </p>
 
                         <p id = "comp-tech1">Java </p>
 
-                        <p id = "comp-tech2">Compiler</p>
+                        <p id = "comp-tech2">Compiler</p> 
 
                         <p id = "comp-tech3">JUnit</p>
                             
@@ -183,6 +98,62 @@ const Content=() => {
 
                     
                     </div>
+
+                    <div id = "proj-bsf">
+                    
+                        <img src ={bsf} id = "proj-bsf-img"/>
+                        
+                        <h2 id = "proj-bsf-h"> BSF volunteer app</h2>
+                        <p id = "proj-bsf-p"> 
+                          Web application built for&nbsp; <a href = "https://www.bridgerskifoundation.org/">
+                        Bridger Ski Foundation</a>, a local non-profit. Created to streamline the registration, sign in,
+                        and reward processes for volunteers at BSF events 
+
+                         
+                        </p>
+
+                        <p id = "bsf-tech1">ReactJS </p>
+
+                        <p id = "bsf-tech2">Firebase</p> 
+
+                        <p id = "bsf-tech3">Jest</p>
+                            
+
+                        {/* <a id = "button1" href="https://youtu.be/MdFMTVmyl3E">Demo</a> */}
+
+                        <a id = "bsf-button" href="https://github.com/423s23/G3-BSF">
+                                GitHub
+                        </a>    
+
+                
+                </div>
+
+                <div id = "proj-rails">
+                    
+                    <img src ={rails} id = "proj-rails-img"/>
+                    
+                    <h2 id = "proj-rails-h"> Blog</h2>
+                    <p id = "proj-rails-p"> 
+                    This app allows users to create, read, update, edit, and delete text posts in a blog format. 
+                    Users will find they can read posts on the home page and they can access post creating, 
+                    editing, and deleteing functionality through the 'Create New Post' tab in the top right corner.
+                    </p>
+
+                    <p id = "rails-tech1">Ruby on Rails</p>
+
+                    <p id = "rails-tech2">CVM</p> 
+
+                    <p id = "rails-tech3">Gems</p>
+                        
+
+                    <a id = "button1" href="https://youtu.be/vXIruLILAc0">Demo</a>
+
+                    <a id = "button2" href="https://github.com/andrewanselmo/Rails-Blog">
+                            GitHub
+                    </a>    
+
+            
+            </div>
 
 
             </div>
