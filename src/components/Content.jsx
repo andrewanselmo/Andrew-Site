@@ -88,14 +88,12 @@ const Content=() => {
                         <p id = "comp-tech2">Compiler</p> 
 
                         <p id = "comp-tech3">JUnit</p>
+
+                        <a id = "b1" href="https://youtu.be/MdFMTVmyl3E"> Demo  </a>
+
+                        <a id = "b2" href="https://github.com/andrewanselmo/Catscript-Compiler/tree/main"> Github </a>
                             
-
-                        <a id = "button1" href="https://youtu.be/MdFMTVmyl3E">Demo</a>
-
-                        <a id = "button2" href="https://github.com/andrewanselmo/Catscript-Compiler/tree/main">
-                                GitHub
-                        </a>    
-
+                        
                     
                     </div>
 
@@ -117,16 +115,13 @@ const Content=() => {
                         <p id = "bsf-tech2">Firebase</p> 
 
                         <p id = "bsf-tech3">Jest</p>
-                            
 
-                        {/* <a id = "button1" href="https://youtu.be/MdFMTVmyl3E">Demo</a> */}
-
-                        <a id = "bsf-button" href="https://github.com/423s23/G3-BSF">
+                        <a id = "single-button" href="https://github.com/423s23/G3-BSF">
                                 GitHub
                         </a>    
 
                 
-                </div>
+                    </div>
 
                 <div id = "proj-rails">
                     
@@ -146,14 +141,14 @@ const Content=() => {
                     <p id = "rails-tech3">Gems</p>
                         
 
-                    <a id = "button1" href="https://youtu.be/vXIruLILAc0">Demo</a>
+                    <a id = "b1" href="https://youtu.be/vXIruLILAc0">Demo</a>
 
-                    <a id = "button2" href="https://github.com/andrewanselmo/Rails-Blog">
+                    <a id = "b2" href="https://github.com/andrewanselmo/Rails-Blog">
                             GitHub
                     </a>    
 
             
-            </div>
+                </div>
 
 
             </div>
