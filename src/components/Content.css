@@ -808,8 +808,8 @@ li:hover {
 
     #b1, #b2, #single-button{
         grid-column: 1; 
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 15px;
+        
     }
 
 

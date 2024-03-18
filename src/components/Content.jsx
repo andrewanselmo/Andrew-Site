@@ -120,7 +120,6 @@ const Content=() => {
                                 GitHub
                         </a>    
 
-                
                     </div>
 
                 <div id = "proj-rails">
