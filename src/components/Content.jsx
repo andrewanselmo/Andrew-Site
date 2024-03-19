@@ -70,7 +70,7 @@ const Content=() => {
 
             <div id = "proj">
 
-                <h2 id = "proj-h">PROJECTS</h2>
+                <h2 id = "proj-h">Projects</h2>
 
                     <div id = "proj-compiler">
                     
@@ -145,6 +145,30 @@ const Content=() => {
                     <a id = "b2" href="https://github.com/andrewanselmo/Rails-Blog">
                             GitHub
                     </a>    
+
+            
+                </div>
+
+                <div id = "proj-cf">
+                    
+                    <img src ={career} id = "proj-cf-img"/>
+                    
+                    <h2 id = "proj-cf-h"> Career Finder</h2>
+                    <p id = "proj-cf-p"> 
+                    Leveraged the five stages of Design Thinking to develop a career development app.
+                    Walk through the surveying, modeling, mapping, proptyping, and testing phases
+                    that went on to make Career Finder.  
+                    </p>
+
+                    <p id = "cf-tech1">UX</p>
+
+                    <p id = "cf-tech2">Python</p> 
+
+                    <p id = "cf-tech3">Adobe</p>
+                        
+                    <a id = "single-button" href="https://new.express.adobe.com/webpage/fD6F5mwAOeoY8">
+                                Website 
+                        </a>   
 
             
                 </div>

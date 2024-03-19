@@ -197,6 +197,7 @@ body {
     color:rgba(69, 18, 221, 0.909);
     padding-bottom: 100px;
     font-size: 1.7vw;
+    
 
 }
 
@@ -227,6 +228,9 @@ body {
     grid-row: 1/ span 2; 
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 #proj-compiler-h{
@@ -239,7 +243,7 @@ body {
 
     margin-left: 15px;
 
-    color:rgb(104, 104, 107);
+    color:#747fe0;
 
 }
 
@@ -395,6 +399,9 @@ body {
     grid-row: 1/ span 2; 
     padding-right: 10px;
     padding-left: 15px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
 
 }
 
@@ -405,7 +412,7 @@ body {
     grid-column: 2;
     grid-row: 1;
     margin-left: 15px;
-    color:rgb(104, 104, 107);
+    color:#747fe0;
 }
 
 #proj-bsf-p{
@@ -520,6 +527,9 @@ body {
     padding-right: 10px;
     padding-left: 25px;
 
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
 }
 
 #proj-rails-h{
@@ -529,7 +539,7 @@ body {
     grid-column: 2;
     grid-row: 1;
     margin-left: 15px;
-    color:rgb(104, 104, 107);
+    color:#747fe0;
 }
 
 #proj-rails-p{
@@ -578,6 +588,91 @@ body {
 }
 
 /* rails */
+
+/* career finder  */
+
+#proj-cf{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.5fr 0.2fr;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+#proj-cf-img{
+    width: 560px;
+    
+    grid-column: 1;
+    grid-row: 1/ span 2; 
+    
+    padding-right: 10px;
+    padding-left: 25px;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+#proj-cf-h{
+    font-size: 26px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 15px;
+    color:#747fe0;
+}
+
+#proj-cf-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    grid-column: 2;
+    grid-row: 1;
+    margin-right:15px;
+    margin-left: 15px;
+    padding: 5px;
+    padding-top: 85px;
+    color:rgb(104, 104, 107);
+    line-height: 30px;
+}
+
+#cf-tech1, #cf-tech2, #cf-tech3{
+    grid-column: 2;
+    grid-row: 2; 
+    margin-top:45px;
+    width: 90px;
+    height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #92eac0;
+    border-width: 3px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#cf-tech1{
+    margin-left: 15px;
+    width: 55px;
+}
+
+#cf-tech2{
+    margin-left: 85px;
+    width: 70px;
+}
+
+#cf-tech3{
+    margin-left: 170px;
+    width: 70px;
+}
+
+/* career finder */
 
 
 /* projects */
@@ -775,7 +870,7 @@ li:hover {
         
     }
 
-    #proj-compiler, #proj-bsf, #proj-rails{
+    #proj-compiler, #proj-bsf, #proj-rails, #proj-cf{
         width: 90%;
         
  
@@ -783,25 +878,25 @@ li:hover {
     }
 
 
-    #proj-compiler-p, #proj-bsf-p, #proj-rails-p{
+    #proj-compiler-p, #proj-bsf-p, #proj-rails-p, #proj-cf-p{
         grid-column: 1/ span 2 ;    
         
         
     }
     
-    #proj-compiler-h, #proj-bsf-h, #proj-rails-h{
+    #proj-compiler-h, #proj-bsf-h, #proj-rails-h, #proj-cf-h{
         grid-column: 1/ span 2;
         
     }
 
-    #proj-compiler-img, #proj-bsf-img, #proj-rails-img{
+    #proj-compiler-img, #proj-bsf-img, #proj-rails-img, #proj-cf-img{
         opacity: 0;
         width: 0%;
         
     }
 
     #comp-tech1, #comp-tech2, #comp-tech3, #bsf-tech1, #bsf-tech2, #bsf-tech3, 
-    #rails-tech1, #rails-tech2, #rails-tech3{
+    #rails-tech1, #rails-tech2, #rails-tech3, #cf-tech1, #cf-tech2, #cf-tech3{
         grid-column: 1/ span 2 ;
     
     }
