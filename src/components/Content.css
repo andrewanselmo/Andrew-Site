@@ -27,7 +27,8 @@ body {
     place-items: center;
     
     padding-top: 200px;
-    background-color: rgba(228, 233, 237, 0.254);
+    background-color: rgba(220, 228, 234, 0.254);
+
     
   }
   
@@ -81,7 +82,8 @@ body {
 #about-nav-tracker{
     height:10px;
     /* background-color: rgba(245, 227, 211, 0.394); */
-    background-color: rgba(228, 233, 237, 0.254);
+    background-color: rgba(220, 228, 234, 0.254);
+
 
 }
 
@@ -90,7 +92,7 @@ body {
     grid-template-columns: 2fr 2fr;
     gap: 10px;
     grid-template-rows: 0.5fr 0.5fr;
-    background-color: rgba(228, 233, 237, 0.254);
+    background-color: rgba(220, 228, 234, 0.254);
 
     
     
@@ -176,6 +178,7 @@ body {
     padding-left: 5%;
     padding-top: 2%;
     padding-bottom: 7%;
+    background-color: white;
 
     border-width: thin;
 
@@ -196,7 +199,8 @@ body {
     gap: 10px;
     grid-template-rows: 0.3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1.2fr ;
     place-items: center;
-    background-color: rgba(218, 225, 230, 0.254);
+    background-color: rgba(220, 228, 234, 0.254);
+
     
     
 }
@@ -1032,7 +1036,8 @@ body {
 
 #projects-nav-tracker{
     height:85px;
-    background-color: rgba(228, 233, 237, 0.254);
+    background-color: rgba(220, 228, 234, 0.254);
+
 
 }
 
