@@ -38,7 +38,7 @@ const Content=() => {
 
             <div id = "about">
                 <h1 id = "about-h1">
-                    ABOUT ME
+                    About me
                 </h1>
                 
                     <p id = "about-text">
@@ -78,9 +78,9 @@ const Content=() => {
                         
                         <h2 id = "proj-compiler-h"> CatScript compiler</h2>
                         <p id = "proj-compiler-p"> 
-                            Senior capstone project at MSU. Developed a compiler for the custom programming language CatScript. 
-                            For each of the rules found in the CatScript grammar we implemented methods to tokenize, parse, evaluate, and then generate code. 
-                            We were provided with a web interface to interact directly with the CatScript compiler so you can see each of the processes in real time.
+                            Compiler devloped for the custom programming language CatScript as part of senior capstone. 
+                            Implemented methods to tokenize, parse, evaluate, and generate code. 
+                            You can observe each of the processes in real time through the web interface.
                         </p>
 
                         <p id = "comp-tech1">Java </p>
@@ -105,7 +105,7 @@ const Content=() => {
                         <p id = "proj-bsf-p"> 
                           Web application built for&nbsp; <a href = "https://www.bridgerskifoundation.org/">
                         Bridger Ski Foundation</a>, a local non-profit. Created to streamline the registration, sign in,
-                        and reward processes for volunteers at BSF events 
+                        and reward processes for volunteers at BSF events. 
 
                          
                         </p>
@@ -128,7 +128,6 @@ const Content=() => {
                     
                     <h2 id = "proj-rails-h"> Blog</h2>
                     <p id = "proj-rails-p"> 
-                    This app allows users to create, read, update, edit, and delete text posts in a blog format. 
                     Users will find they can read posts on the home page and they can access post creating, 
                     editing, and deleteing functionality through the 'Create New Post' tab in the top right corner.
                     </p>
@@ -171,6 +170,111 @@ const Content=() => {
                         </a>   
 
             
+                </div>
+
+                <div id = "proj-pir">
+                    
+                    <img src ={pirate} id = "proj-pir-img"/>
+                    
+                    <h2 id = "proj-pir-h"> Pirate translator</h2>
+                    <p id = "proj-pir-p"> 
+
+                        A CLI application that utilizes a client/server relationship to translate an 
+                        english message to pirate lingo. 
+  
+                    </p>
+
+                    <p id = "pir-tech1">Networks</p>
+
+                    <p id = "pir-tech2">Python</p> 
+
+                    <p id = "pir-tech3">CLI</p>
+                        
+                    <a id = "b1" href="https://www.youtube.com/watch?v=k7GC0jKx76U">Demo</a>
+
+                    <a id = "b2" href="https://github.com/andrewanselmo/pirate">
+                            GitHub
+                    </a>   
+
+                </div>
+
+
+                <div id = "proj-db">
+                    
+                    <img src ={db} id = "proj-db-img"/>
+                    
+                    <h2 id = "proj-db-h"> SQLite interface</h2>
+                    <p id = "proj-db-p"> 
+
+                    Website built to interface with a SQLite database. Allows users to to create, 
+                    read, update, delete and search for various tracks, artists, and albums. 
+  
+                    </p>
+
+                    <p id = "db-tech1">Java</p>
+
+                    <p id = "db-tech2">Databases</p> 
+
+                        
+                    <a id = "b1" href="https://www.youtube.com/watch?v=RfrFCC7Q5rg&t=16s">Demo</a>
+
+                    <a id = "b2" href="https://github.com/andrewanselmo/database-project">
+                            GitHub
+                    </a>   
+
+                </div>
+
+
+                <div id = "proj-game">
+                    
+                    <img src ={escape1} id = "proj-game-img"/>
+                    
+                    <h2 id = "proj-game-h"> Escape room</h2>
+                    <p id = "proj-game-p"> 
+
+                    Game built with Unity game engine. This is an escape room with 2 levels that each have 3 puzzles. 
+                    Complete all the puzzles to get out!
+  
+                    </p>
+
+                    <p id = "game-tech1">Unity</p>
+
+                    <p id = "game-tech2">C#</p> 
+
+                        
+                    <a id = "b1" href="https://www.youtube.com/watch?v=RfrFCC7Q5rg&t=16s">Demo</a>
+
+                    <a id = "b2" href="https://github.com/andrewanselmo/escape-room">
+                            GitHub
+                    </a>   
+
+                </div>
+
+                <div id = "proj-ret">
+                    
+                    <img src ={retail} id = "proj-ret-img"/>
+                    
+                    <h2 id = "proj-ret-h"> Ecommerce website</h2>
+                    <p id = "proj-ret-p"> 
+
+                    Ecommerce website that utilizes API's to enable users to view and search
+                    for specific items. 
+  
+                    </p>
+
+                    <p id = "ret-tech1">Next.js</p>
+
+                    <p id = "ret-tech2">Hooks</p> 
+
+                    <p id = "ret-tech3">API's</p> 
+
+                        
+                    <a id = "b1" href="https://youtu.be/_qnpSRaFIpg">Demo</a>
+
+                    <a id = "b2" href="https://github.com/andrewanselmo/next/blob/main/README.md">
+                            GitHub
+                    </a>   
+
                 </div>
 
 
