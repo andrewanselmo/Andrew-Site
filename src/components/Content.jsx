@@ -206,7 +206,7 @@ const Content=() => {
                     <h2 id = "proj-db-h"> SQLite interface</h2>
                     <p id = "proj-db-p"> 
 
-                    Website built to interface with a SQLite database. Allows users to to create, 
+                    Website built to interface with a SQLite database. Allows users to create, 
                     read, update, delete and search for various tracks, artists, and albums. 
   
                     </p>
