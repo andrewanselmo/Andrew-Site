@@ -28,7 +28,7 @@ const Navbar=() => {
             </li>
           </Link>
 
-              <a href ="https://drive.google.com/file/d/1MVHnq55ohXH8swgaa13bpTG_MN49cVTR/view">
+              <a href ="https://drive.google.com/file/d/1T2wlmnli0Enh-wyvrC6Wjdk5vKB9sQWU/view">
                 <li>
                   RESUME
                 </li>
